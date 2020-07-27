@@ -95,3 +95,54 @@ car_brands_2.remove(not_foreign)
 print(car_brands_2)
 print("I can't drive a " + not_foreign.title() + ", I only drive foreign cars.")
 
+print(" ")
+print("Example 12")
+print(" ")
+
+# Sorting a list alphabetically and reverse alphabetically
+cities = ['chicago', 'dallas', 'atlanta', 'houston', 'denver', 'brooklyn', 'seattle']
+cities.sort()
+print(cities)
+
+print(" ")
+cities.sort(reverse=True)
+print(cities)
+
+
+print(" ")
+print("Example 13")
+print(" ")
+
+# Temporarily sorting list 
+
+print("Here is the original list:")
+print(cities)
+
+print(" ")
+print("Here is the sorted list:")
+print(sorted(cities))
+
+print(" ")
+print("Here is the original list again:")
+print(cities)
+
+print(" ")
+print("Example 14")
+print(" ")
+
+# Reversing the order of a list
+print(cities)
+print(" ")
+print("Here is the same list in reverse order")
+cities.reverse()
+print(cities)
+
+print(" ")
+print("Example 15")
+print(" ")
+
+# Finding the length of a list
+print(cities)
+print(" ")
+print(len(cities))
+
